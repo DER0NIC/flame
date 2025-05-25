@@ -109,5 +109,5 @@ class SpatialMaterial extends Material {
     device.lightingInfo.apply(fragmentShader);
   }
 
-  static const _maxJoints = 16;
+  static const _maxJoints = 50; // 16
 }
